@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css"
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/10187559ef.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Press+Start+2P&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
@@ -20,9 +24,96 @@
 
         <div class="headerContainer">
             <h1>Mahmood Khattak</h1>
-            <h1>Toronto based web developer</h1>
+            <p>Toronto based web developer</p>
         </div>
+
+        <button style="background-color: #EEAF98;">Get In Touch</button>
     </header>
 
+    <section>
+        <h2>about me</h2>
+        <p>Hi there, name is Mahmood and I love coding, video games and movies.Before coming to juno I was attending highschool and after taking the web development course, I felt like the web deveopment bootcamp was a good choice to furthur my knowledge of coding further.</p>
+    </section>
+
+    <div class="social">
+        <h3>skills</h3>
+        <div class="media">
+            <a href="#">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-sass"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-solid fa-code-branch"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+    <h4>projects</h4>
+    <div class="cont">
+        <img src="pexels-yan-krukau-5793953.jpg" alt="sophie">
+        <div class="text">
+            <h2>Sophie</h2>
+            <h2>HTML, CSS, SASS</h2>
+            <p2>This was a multi page project that has a home page, blog page amd a contact page using HTML,CSS and SASS.</p2>
+            <div class="buttons">
+                <button type="button" onclick="location.href='https://zingy-cannoli-ca640d.netlify.app/'">View live</button>
+                <button type="button" onclick="location.href='https://github.com/mahmkhat4206/Sophie.git'">View code</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contTwo">
+        <img src="pexels-yan-krukau-5793953.jpg" alt="movie">
+        <div class="text">
+            <h2>Movie Recomendation</h2>
+            <h2>HTML, CSS, Javasript</h2>
+            <p2>This was a project that i did with a partner.gives movie reccomendations based on chosen genre by user.</p2>
+            <div class="buttons">
+                <button type="button" onclick="location.href='https://cool-sunburst-3801fd.netlify.app/'">View live</button>
+                <button type="button" onclick="location.href='https://github.com/team-movie-pals/project-2.git'">View code</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont">
+        <img src="pexels-yan-krukau-5793953.jpg" alt="sophie">
+        <div class="text">
+            <h2>Sophie</h2>
+            <h2>HTML, CSS, SASS</h2>
+            <p2>This was a multi page project that has a home page,bloge page amd a contact page using HTML,CSS and SASS.</p2>
+            <div class="buttons">
+                <button type="button" onclick="location.href='https://zingy-cannoli-ca640d.netlify.app/'">View live</button>
+                <button type="button" onclick="location.href='https://github.com/mahmkhat4206/Sophie.git'">View code</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+    <form>
+        <div class="socialTwo">
+            <h5>Get in Touch</h5>
+            <div class="mediaTwo">
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+            <p3>If you have any inquires about any of my projects or are curious in my coding background and skills, don't be afraid to send me an message with your name, email address and your message, I will try to get back you as soon as possible.
+                <span class="stopspam" aria-hidden="true">NO BOTS ALLOWED!</span> mahmoodkhattak2003@gmail.com
+            </p>
+        </div>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <textarea id="message" rows="3" placeholder="Message"></textarea>
+        <button type="submit">submit</button>
+    </form>
+</div>
 </body>
 </html>
