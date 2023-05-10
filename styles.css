@@ -24,22 +24,24 @@ html { box-sizing: border-box;}
 }
 
 
-@media  screen and (max-width: 768px) {
-    .holding_cont{
-      flex-direction: column;
-    }
- }
+@media screen and (max-width:900px)
+{
+
+}
+
+
 
 
 li, a {
     font-family: sans-serif;
     font-weight: 600;
     font-size: 16px;
-    color: #000;
+    color: #F2F4F5;
     text-decoration: none;
 }
-a:hover{
-    color: #05afc1;
+
+body{
+    background-color: #f5f5f5;
 }
 
 
@@ -50,10 +52,9 @@ header{
     padding: 30px 10%;
     background-color: #05afc1;
     font: "lora" bold;
+    color: #F2F4F5;
+    background-color: #424B6D;
 
-}
-.sophie{
-    font-size: 10rem;
 }
 .nav_links{
     list-style: none;
@@ -72,5 +73,203 @@ header{
 }
 
 .headerContainer{
-    background-color: #05afc1;
+    text-align: center;
+    margin-top: 70px;
 }
+
+
+section{
+    background-color: #F2F4F5;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: "playfair display";
+    color: #F2F4F5;
+}
+
+h2{
+    font-size: xx-large;
+    color: #5169BD;
+    font-family: "playfair display";
+}
+
+p{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: "source sans pro";
+}
+
+p3{
+    color: #F2F4F5;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: "source sans pro";
+
+}
+
+h3{
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    font-family: "playfair display";
+    background-color: #b650b62C;
+}
+
+h4{
+    font-family: "playfair display";
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+
+h5{
+    font-family: "playfair display";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10%;
+    font-size: 100px;
+    color: #F2F4F5;
+}
+
+
+article{
+    background: #054dc1;
+    align-self: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: #F2F4F5;
+    margin: 150px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 38%;
+}
+
+.contTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: #F2F4F5;
+    margin: 150px auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 38%;
+    flex-direction: row-reverse;
+}
+
+img {
+    max-width: 320px;
+    border: 3px solid gray;
+}
+
+.social{
+    background: #054dc1;
+    align-self: center;
+}
+
+.social .media{
+    height: 100px;
+    max-width: 310px;
+    position: relative;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 610px;
+    margin-top: -40px;
+}
+
+.socialTwo{
+    background: #5169BD;
+    align-self: center;
+}
+
+.socialTwo .mediaTwo{
+    width: 310px;
+    height: 100px;
+    position: relative;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+
+
+
+.social{
+    background: #054dc1;
+    align-self: center;
+}
+
+
+.contact{
+    width: 100%;
+    height: 110vh;
+    background: #5169BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: #5169BD;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 900px;
+
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    background: #EEAF98;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+button{
+    background: #EEAF98;
+}
+span.stopspam {
+    display: none;
+  }
